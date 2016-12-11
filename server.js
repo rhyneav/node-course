@@ -67,3 +67,13 @@ app.get('/bad', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is up on port ${port}`);
 });
+
+/*
+
+To deploy, push changes to github and then push to heroku
+>> git push
+>> git push heroku
+
+If heroku was not created run heroku create first
+>> heroku create
+*/
